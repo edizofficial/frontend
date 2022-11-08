@@ -1,5 +1,5 @@
 import { reduxAction } from "../base"
-import { BLUR, BRIGHTNESS, CONTRAST, GRAYSCALE, INVERT, OPACITY } from "./type"
+import { BLUR, BRIGHTNESS, CONTRAST, GRAYSCALE, INVERT, OPACITY, RESET } from "./type"
 
 export const changeBrightness=(value)=>{
     return dispatch=>{
@@ -29,5 +29,10 @@ export const changeInvert=(value)=>{
 export const changeOpacity=(value)=>{
     return dispatch=>{
         dispatch(reduxAction(OPACITY,value))
+    }
+}
+export const resetValue=()=>{
+    return dispatch=>{
+        dispatch(reduxAction(RESET,""))
     }
 }

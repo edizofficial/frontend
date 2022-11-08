@@ -4,3 +4,4 @@ export const CONTRAST='CONTRAST'
 export const GRAYSCALE='GRAYSCALE'
 export const INVERT="INVERT"
 export const OPACITY="OPACITY"
+export const RESET='RESET'

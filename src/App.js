@@ -1,10 +1,10 @@
 import './App.css';
 import './css/typography.css'
-import EditorContent from './components/editor/EditorContent';
+import Routers from './Routers';
 
 function App() {
   return (
-    <EditorContent/>
+    <Routers/>
   );
 }
 
