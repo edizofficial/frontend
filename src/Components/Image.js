@@ -6,7 +6,7 @@ const Image = () => {
     const filter=useSelector(state=>state.filter)
     console.log(filter);
   return (
-    <div className=' bg-white w-full h-full md:p-5 p-3 rounded-lg'>
+    <div className='w-full h-full md:p-5 p-3 rounded-lg md:pt-0'>
         <div className="w-full h-full  overflow-hidden">
         <img 
         src={imgUrl}

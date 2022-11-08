@@ -97,6 +97,12 @@ h6 {
   font-size: 0.625rem; /* 12px */
   text-transform: uppercase;
 }
+@media only screen and (max-width: 780px) {
+  .body-1-md {
+    font-size: 1rem; /* 16px */
+    /* line-height: 28px; */
+  }
+}
 @media only screen and (max-width: 480px) {
   .h5-sm-thin {
     font-family: 'aribau-regular';
@@ -104,9 +110,9 @@ h6 {
     line-height: 34px;
   }
   .body-1-sm {
-    font-family: 'aribau-regular';
-    font-size: 1rem; /* 16px */
-    line-height: 28px;
+    /* font-family: 'aribau-regular'; */
+    font-size: 0.5rem; /* 8px */
+    /* line-height: 28px; */
   }
   .body-2-sm {
     /*medium*/

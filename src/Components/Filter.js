@@ -9,7 +9,12 @@ const Filter = ({filterItem}) => {
     <div className="px-5">
             <div className=" md:flex block items-center md:justify-start justify-center  py-2 font-medium" onClick={onToggleTab}>
                 <div className='pr-2 flex justify-center'><filterItem.Icon/></div>
-                <div className=' flex body-1-sm  '>{filterItem.name}</div>
+                <div className="w-full flex justify-between">
+                  <div className=' flex body-1-sm  '>{filterItem.name}</div>
+                  <div className="w-10 text-center  font-medium border-[1px] border-black rounded-lg">
+                      {filterItem.value}
+                  </div>
+                </div>
             </div>
             <div className={ isTab ?"flex justify-between" : "lg:flex hidden absolute md:relative"}>
                 <input 
@@ -18,10 +23,7 @@ const Filter = ({filterItem}) => {
                     max={filterItem.max} 
                     defaultValue={filterItem.defaultV} 
                     onChange={(e)=>filterItem.onChangeFunc(e.target.value)}
-                    className='w-[80%] cursor-pointer mr-3 accent-[#8300ca]' />
-                <div className="w-[15%] text-center  font-medium border-[2px] border-gray-200">
-                    {filterItem.value}
-                </div>
+                    className='w-full cursor-pointer  accent-[#d2daff96] outline-none ring-0 ' />
             </div>
         </div>
   )
