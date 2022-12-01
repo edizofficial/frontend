@@ -9,15 +9,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f0f4f8;
-  color: black;
+  background-color: #191A19;
+  color: rgba(255, 255, 255, 0.778);
 }
 body ::-webkit-scrollbar{
   display: none;
 }
-/* .logo{
-  background-image: url(./Components/LOGO_PHOTO_EDITOR.png);
-} */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

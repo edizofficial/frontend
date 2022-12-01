@@ -1,11 +1,9 @@
 import './App.css';
-import './css/typography.css'
+import './css/typography.css';
 import Routers from './Routers';
 
 function App() {
-  return (
-    <Routers/>
-  );
+  return <Routers />;
 }
 
 export default App;

@@ -1,7 +1,10 @@
-export const BRIGHTNESS='BRIGHTNESS'
-export const BLUR='BLUR'
-export const CONTRAST='CONTRAST'
-export const GRAYSCALE='GRAYSCALE'
-export const INVERT="INVERT"
-export const OPACITY="OPACITY"
-export const RESET='RESET'
+export const BRIGHTNESS = 'BRIGHTNESS';
+export const BLUR = 'BLUR';
+export const CONTRAST = 'CONTRAST';
+export const GRAYSCALE = 'GRAYSCALE';
+export const INVERT = 'INVERT';
+export const OPACITY = 'OPACITY';
+export const SATURATE = 'SATURATE';
+export const HUEROTATE = 'HUEROTATE';
+export const SEPIA = 'SEPIA';
+export const RESET = 'RESET';

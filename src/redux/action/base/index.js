@@ -1,27 +1,24 @@
-
-
 export const reduxAction = (type, data) => {
   return {
     type,
-    payload: data,
+    payload: data
   };
 };
 
 export const errorPayload = (type, error) => {
   return {
     type,
-    error,
+    error
   };
 };
 
-
 export const baseDispatchAction = (state, data) => {
-  return dispatch => {
+  return (dispatch) => {
     dispatch(reduxAction(state, data));
   };
 };
-export const removeDataAction = state => {
-  return dispatch => {
+export const removeDataAction = (state) => {
+  return (dispatch) => {
     dispatch(reduxAction(state, []));
   };
 };

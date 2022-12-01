@@ -1,1 +1,1 @@
-export const IMG_URL='IMG_URL'
+export const IMG_URL = 'IMG_URL';

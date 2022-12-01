@@ -25,6 +25,37 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>PHOTO_EDITOR</title>
+    <style>
+      @font-face {
+          font-family: 'aribau-black';
+          src: local('aribau-black'), url('%PUBLIC_URL%/fonts/AribauGrotesk-Blk.woff') format('woff');
+      }
+      
+      @font-face {
+          font-family: 'aribau-light';
+          src: local('aribau-light'), url('%PUBLIC_URL%/fonts/AribauGrotesk-Lt.woff') format('woff');
+      }
+      
+      @font-face {
+          font-family: 'aribau-xtlight';
+          src: url('%PUBLIC_URL%/fonts/AribauGrotesk-XLt.woff') format('woff');
+      }
+      
+      @font-face {
+          font-family: 'aribau-regular';
+          src: local('aribau-regular'), url('%PUBLIC_URL%/fonts/AribauGrotesk-Rg.woff') format('woff');
+      }
+      
+      @font-face {
+          font-family: 'aribau-medium';
+          src: local('aribau-medium'), url('%PUBLIC_URL%/fonts/AribauGrotesk-Md.woff') format('woff');
+      }
+      
+      @font-face {
+          font-family: 'aribau-semibold';
+          src: local('aribau-semibold'), url('%PUBLIC_URL%/fonts/AribauGrotesk-Bd.woff') format('woff');
+      }
+  </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
